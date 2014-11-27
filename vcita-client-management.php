@@ -3,7 +3,7 @@
 Plugin Name: Client Management by vCita
 Plugin URI: http://www.vcita.com
 Description: Client Management by vCita proves to increase the number of contact form requests 
-Version: 1.1.0
+Version: 1.0.0
 Author: vCita.com
 Author URI: http://www.vcita.com
 */
@@ -22,7 +22,7 @@ if (vcita_scheduler_check_plugin_available('vcita_widget') || vcita_scheduler_ch
 	define('VCITA_WIDGET_MENU_NAME', 'vCita Client Management');
 	define('VCITA_WIDGET_SHORTCODE', 'vCitaMeetingScheduler');
 	define('VCITA_CALENDAR_WIDGET_SHORTCODE', 'vCitaSchedulingCalendar');
-	define('VCITA_WIDGET_UNIQUE_ID', 'client-management-by-vcita');
+	define('VCITA_WIDGET_UNIQUE_ID', 'crm-customer-relationship-management-by-vcita');
 	define('VCITA_WIDGET_UNIQUE_LOCATION', __FILE__);
 	define('VCITA_WIDGET_CONTACT_FORM_WIDGET', 'true');
 	define('VCITA_WIDGET_CALENDAR_WIDGET', 'true');
