@@ -363,7 +363,7 @@ function vcita_admin_actions() {
         </div>
         <div class="vcita-box-content">
           <div class="vcita-access-client-records">
-            <a href="https://www.vcita.com/clients" target="_blank" class="button button-primary prevent-link" style="font-weight:bold;">Access Client Records</a>
+            <a href="https://www.vcita.com/my/dashboard" target="_blank" class="button button-primary prevent-link" style="font-weight:bold;">Access Client Records</a>
           </div>
         </div>
       </div>

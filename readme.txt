@@ -1,22 +1,24 @@
-﻿=== CRM - Customer Relationship Management for WordPress by vCita  ===
+=== CRM - Customer Relationship Management for WordPress by vCita  ===
 Contributors: vCita
 Donate link: http://www.vcita.com?invite=WP-V-CRM
 Tags: contact form, contact form builder, contact form plugin, contact form 7, CRM, email, feedback form, user management, WordPress CRM, admin, administration, contact, contact sync, CRM, form, form builder, form generator, lead, lead capture, list, optin form, plugin, shortcode, widget, widgets, wordpress, WordPress CRM, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, wp crm, small business
 Requires at least: 2.8
-Tested up to: 4.0
-Stable tag: 1.0.0
+Tested up to: 4.0.1
+Stable tag: 1.1.0
 
 License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
-CRM for WordPress that drives more business opportunities and helps deliver amazing service
+CRM for WordPress that helps you capture more leads and manage customer relationships effectively.
 == Description ==
 
-vCita CRM for WordPress manages client contacts, provides insights and tracks interactions anytime, anywhere.<BR> 
-It halps you save time with automated client communications, notifications and reminders and much more...<BR><BR>
+vCita CRM for WordPress is the ultimate way to manage customer relationships.<BR>
+It's a powerful CRM that lets you do a lot more than capturing and storing customers data:
 
-vCita CRM works together with vCita LiveSite - designer to optimize WordPress websites, and provide clients of small businesses a personalized, self-service experience. This is the place for your clients to communicate, schedule appointments, upload documents, and pay for services anytime, on any device.<BR><BR>
+vCita CRM provides insights and tracks all user interactions with your team.<BR>
+It helps you save time with automated client communications, notifications and reminders.<BR>
+Together with vCita LiveSite, vCita CRM helps optimizing your WordPress websites and encourage visitors to take action on your site: send a message, schedule an appointment, upload documents and pay for services, any time, using any device.<BR>
 
 The plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.<BR>
 
@@ -24,6 +26,8 @@ The plugin connects to your vCita account. You may create a FREE account at vCit
 * **Lead Management** -  Every contact submitted on your WordPress site is captured by the vCita CRM, and is available immediately in one simple dashboard to quickly qualify and follow-up. 
 * **Client Management** - Easily organize, search and edit client information and social data, mark for follow-up, request payment or scheduler appointments.
 * **Client Portal** - A secure 24/7 client portal offering account updates, payment status, document requests and messages. Clients can communicate at their convenience and even set additional appointments, make payments and upload documents.
+* **Online Calendar** - Manage your business calendar, invite leads and clients for meetings and offer them to schedule appointments right on your site -  based on your up to date availability.
+* **Invoicing Templates and Online Payment Collect** - vCita CRM lets you create professional invoices including your logo and details. Your clients can pay for your services online, with credit card or PayPal.
 
 https://www.youtube.com/watch?v=nok9rIdLcxA
 
@@ -50,7 +54,7 @@ https://www.youtube.com/watch?v=nok9rIdLcxA
 
 *"vCita is a great solution for us as it is easy to use, saves time and most of all, it works. vCita customer support is always there if we have a question."* Al Nazarelli, CEO of Silicon Valley Research Group
 
-Learn more about our <a href ="https://www.vcita.com/software/crm_contact_management?invite=WP-v-CRM&O=WP-CRM">Contact Management and CRM for Wordpress</a>
+Learn more about our <a href ="https://www.vcita.com/software/crm_contact_management?invite=WP-v-CRM&O=WP-CRM">Contact Management Software</a>
 
 = Building WordPress sites for others? = 
 
@@ -67,8 +71,9 @@ Use vCita LiveSite on any WordPress website you build and manage all vCita plugi
 4.	A new CRM tab will be added on your left bar for easy nevigation. 
 
 = Import Existing Client =
-1.	Click on "Accress Client Records"
-2.	In the new window click "Import Clients"
+1.	Click on "Access Client Records"
+2.	Navigate to "Clients" section  
+2.	Click "Import Clients"
 3.	Choose from where to import: Google Contacts or a CSV file.
 4.	A list of all your contacts will be presented
 5. 	Select to import all, or choose explicitly which contacts to import.
@@ -138,13 +143,16 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
 == Screenshots ==
 
 1. **Client Records** - For every lead captured on your site a new "Clint Card", including all information about the lead, is created. You can search for clients and leads, Mark the lead status and make follow-up actions: Schedule an appointment, send and invoice and more.
-1. **One Inbox for all communicatoins** - All communications are available in one simple Inbox, where you can also view complete communication history and mark client for follow-ups, 
-1. **Customize Client records** - Customize your client recordt, and Add unlimited number of custom fields on every client record on your CRM. 
-1. **Capture more leads with vCita LiveSite** - LiveSite Widget will double the number of new business opportunities your website generate, and automatically stream them into your CRM.
+2. **One Inbox for all communicatoins** - All communications are available in one simple Inbox, where you can also view complete communication history and mark client for follow-ups, 
+3. **Customize Client records** - Customize your client recordt, and Add unlimited number of custom fields on every client record on your CRM. 
+4. **Capture more leads with vCita LiveSite** - LiveSite Widget will double the number of new business opportunities your website generate, and automatically stream them into your CRM.
 
 
 
 == Changelog == 
+ = vCita CRM Version 1.1.0 =
+ * Added French full support
+ * Fixed some bugs
  
  = vCita CRM Version 1.0.0 =
  * First release
