@@ -1,7 +1,7 @@
 === CRM - Customer Relationship Management for WordPress by vCita  ===
 Contributors: vCita
 Donate link: http://www.vcita.com?invite=WP-V-CRM
-Tags: contact form, contact form builder, contact form plugin, contact form 7, CRM, email, feedback form, user management, WordPress CRM, admin, administration, contact, contact sync, CRM, form, form builder, form generator, lead, lead capture, list, optin form, plugin, shortcode, widget, widgets, wordpress, WordPress CRM, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, wp crm, small business
+Tags: contact form, contact form builder, contact form plugin, contact form 7, CRM, email, feedback form, user management, WordPress CRM, admin, administration
 Requires at least: 2.8
 Tested up to: 4.0.1
 Stable tag: 1.1.0
