@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Client Management by vCita
+Plugin Name: CRM & Lead Management for WordPress
 Plugin URI: http://www.vcita.com
 Description: Client Management by vCita proves to increase the number of contact form requests 
-Version: 1.1.0
+Version: 1.2.0
 Author: vCita.com
 Author URI: http://www.vcita.com
 */

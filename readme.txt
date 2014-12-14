@@ -1,10 +1,10 @@
-=== CRM - Customer Relationship Management for WordPress by vCita  ===
+﻿=== CRM & Lead Management for WordPress by vCita  ===
 Contributors: vCita
 Donate link: http://www.vcita.com?invite=WP-V-CRM
-Tags: contact form, contact form builder, contact form plugin, contact form 7, CRM, email, feedback form, user management, WordPress CRM, admin, administration, contact, contact sync, CRM, form, form builder, form generator, lead, lead capture, list, optin form, plugin, shortcode, widget, widgets, wordpress, WordPress CRM, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, wp crm, small business
+Tags: contact form, contact form builder, contact form plugin, leads, wordpress leads, lead management, contact form 7, CRM, email, feedback form, user management, WordPress CRM, admin, administration, contact, contact sync, CRM, form, form builder, form generator, lead, lead capture, list, optin form, plugin, shortcode, widget, widgets, wordpress, WordPress CRM, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, wp crm, small business
 Requires at least: 2.8
 Tested up to: 4.0.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 
 License: GPLv2 or later
 
@@ -13,18 +13,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 CRM for WordPress that helps you capture more leads and manage customer relationships effectively.
 == Description ==
 
-vCita CRM for WordPress is the ultimate way to manage customer relationships.<BR>
+vCita CRM & Leads for WordPress is the ultimate way to manage leads and customer relationships.<BR>
 It's a powerful CRM that lets you do a lot more than capturing and storing customers data:
 
-vCita CRM provides insights and tracks all user interactions with your team.<BR>
+vCita CRM help you generate new sales opportunities, provides insights and tracks all user interactions with your team.<BR>
 It helps you save time with automated client communications, notifications and reminders.<BR>
 Together with vCita LiveSite, vCita CRM helps optimizing your WordPress websites and encourage visitors to take action on your site: send a message, schedule an appointment, upload documents and pay for services, any time, using any device.<BR>
 
-The plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.<BR>
+The vCita CRM & Leads plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.<BR>
 
-= vCita CRM main functionalities: =
-* **Lead Management** -  Every contact submitted on your WordPress site is captured by the vCita CRM, and is available immediately in one simple dashboard to quickly qualify and follow-up. 
-* **Client Management** - Easily organize, search and edit client information and social data, mark for follow-up, request payment or scheduler appointments.
+= vCita CRM & Leads main functionalities: =
+* **Lead Capturing & Management** -  vCita CRM & Leads makes your website work for you. It encourages visitors to connect and can double the number of new sales opportunities you get through your site. Every contact submitted on your WordPress site is captured by the vCita CRM, and is available immediately in one simple dashboard to quickly qualify and follow-up. 
+* **Client Management** - The CRM lets you easily organize, search and edit client information and social data, mark for follow-up, request payment or scheduler appointments.
 * **Client Portal** - A secure 24/7 client portal offering account updates, payment status, document requests and messages. Clients can communicate at their convenience and even set additional appointments, make payments and upload documents.
 * **Online Calendar** - Manage your business calendar, invite leads and clients for meetings and offer them to schedule appointments right on your site -  based on your up to date availability.
 * **Invoicing Templates and Online Payment Collect** - vCita CRM lets you create professional invoices including your logo and details. Your clients can pay for your services online, with credit card or PayPal.
@@ -32,14 +32,16 @@ The plugin connects to your vCita account. You may create a FREE account at vCit
 https://www.youtube.com/watch?v=nok9rIdLcxA
 
 
-= More of the CRM plugin key features: =
+= More of the CRM & Leads plugin key features: =
 * Import all existing contacts from Google, Outlook or Excel to vCita CRM in seconds.
+* Generate more leads from your WordPress site.
 * Add unlimited number of custom fields on every client record on your CRM.
-* View complete client history and communication.
-* Share and/or request documents.
+* View complete client communication history on your CRM
+* Share and/or request documents right from your CRM.
 * Send customized invoices and get paid faster with <a href ="https://www.vcita.com/software/invoicing?invite=WP-v-CRM&O=WP-CRM">online payments</a>
 * Offer Self-service <a href ="https://www.vcita.com/software/online_scheduling?invite=WP-v-CRM&O=WP-CRM">appointment scheduling</a> for your clients and get more appointments in less time.
-
+* vCita CRM will send email and mobile notifications of contact requests, or when a client needs attention or a follow-up. You can respond using any device, anywhere.
+* Share files as part of your conversation with existing clients, and track client files on your CRM.
 
 = What Our Clients Say: =
 
@@ -65,10 +67,10 @@ Use vCita LiveSite on any WordPress website you build and manage all vCita plugi
 
 = Install the vCita CRM for WordPress =
 
-1.	Download the “CRM - Customer Relationship Management for WordPress” and activate it.
-2.	Connect your WordPress site With you vCita account. You may connect an existing account or create a free one via the plugin by simply provicing your Email address. This Email will be used for notifications from vCita, and will never be available to your clients and website visitors. 
-3.	Add the vCita Lead Capturing widgets to your site by checking the box next to the widget you'd like to add. You can customize the widgets to perfectly match your business need and website design by clicking the "Preview & Edit" link. Every lead captured using the vCita widgets will automaticlly be added to your CRM. 
-4.	A new CRM tab will be added on your left bar for easy nevigation. 
+1.	Download “CRM & Lead Management for WordPress by vCita” and activate it.
+2.	Connect your WordPress site With you vCita account. You may connect an existing account or create a free one via the plugin by simply providing your Email address. This Email will be used for notifications from vCita, and will never be available to your clients and website visitors. 
+3.	Add the vCita Lead Capturing widgets to your site by checking the box next to the widget you'd like to add. You can customize the widgets to perfectly match your business need and website design by clicking the "Preview & Edit" link. Every lead captured using the vCita widgets will automatically be added to your CRM. 
+4.	A new CRM tab will be added on your left bar for easy navigation. 
 
 = Import Existing Client =
 1.	Click on "Access Client Records"
@@ -89,7 +91,7 @@ Visit our <a href="https://support.vcita.com/forums/20813255-Lead-Generation-and
 = How can I customize my client records available on my CRM =
 1.      Click on the"CRM Settings" link
 2.	Define custom fields you wish to keep for each of your clients. With vCita Premium you may keep unlimited number of fields vs. only 3 included in the free package. 
-3.	Customize the field name and title wich will be available to both you and your clients.
+3.	Customize the field name and title which will be available to both you and your clients.
 
 = Which contact form options do I have? =
 vCita offers three contact form options to engage more visitors within your website:
@@ -107,10 +109,10 @@ There's more?<BR>
 Of course! Along with our professional and classic contact form, we have two additional contact forms which can help you gain more leads from your website visitors!
 
 **LiveSite** – a proactive contact form, display "call-to-action" at the bottom of your web page. <BR>
-This contact form hase proven to **produces twice as many contact and online scheduling requests as any other contact form**.<BR> 
-Active Engage can automatically display your invitation to visitors and encourage more leads to contact you – leave contact details or schedule appointments and meetings.
+This contact form has proven to **produces twice as many contact and online scheduling requests as any other contact form**.<BR> 
+LiveSite Widget can automatically display your invitation to visitors and encourage more leads to contact you – leave contact details or schedule appointments and meetings.
 <BR>
-**Contact Form Sidebar** - can be added to any post or page and invite client to contact you.<BR> This form can include your profile photo or logo and a brief invitation to contact you or even schedule an appointment. This contact form plugin can be styled horizontally or vertically, include scheduling buttons, and even link to yuor full profile.
+**Contact Form Sidebar** - can be added to any post or page and invite client to contact you.<BR> This form can include your profile photo or logo and a brief invitation to contact you or even schedule an appointment. This contact form plugin can be styled horizontally or vertically, include scheduling buttons, and even link to your full profile.
 <BR>
 
 = Can I add LiveSite on a specific page?  =
@@ -142,17 +144,22 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
 
 == Screenshots ==
 
-1. **Client Records** - For every lead captured on your site a new "Clint Card", including all information about the lead, is created. You can search for clients and leads, Mark the lead status and make follow-up actions: Schedule an appointment, send and invoice and more.
-2. **One Inbox for all communicatoins** - All communications are available in one simple Inbox, where you can also view complete communication history and mark client for follow-ups, 
-3. **Customize Client records** - Customize your client recordt, and Add unlimited number of custom fields on every client record on your CRM. 
-4. **Capture more leads with vCita LiveSite** - LiveSite Widget will double the number of new business opportunities your website generate, and automatically stream them into your CRM.
-
-
+1. **Easy setup** - Set your CRM and start capturing leads in seconds
+2. **Capture more leads with vCita LiveSite** - LiveSite Widget will double the number of new business opportunities your website generate, and automatically stream them into your CRM.
+3. **One Inbox for all communications** - All communications are available in one simple Inbox, where you can also view complete communication history and mark client for follow-ups, 
+4. **Client Records** - For every lead captured on your site a new "Client Card", including all information about the lead, is created. You can search for clients and leads, Mark the lead status and make follow-up actions: Schedule an appointment, send an invoice and more.
+5. **Customize Client records** - Customize your client records, and Add unlimited number of custom fields on every client record on your CRM. 
 
 == Changelog == 
- = vCita CRM Version 1.1.0 =
+ = vCita CRM & Leads Version 1.2.0 =
+ * LiveSite widget improvements
+ * Added direct payment option
+ * Added direct file sharing option
+ * More customization
+
+ = vCita CRM & Leads Version 1.1.0 =
  * Added French full support
  * Fixed some bugs
  
- = vCita CRM Version 1.0.0 =
+ = vCita CRM & Leads Version 1.0.0 =
  * First release
