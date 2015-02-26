@@ -28,17 +28,22 @@ function vcita_wp_add_admin_notices() {
  */
 function vcita_admin_actions() {
   if (function_exists('add_menu_page')) {
-    add_menu_page(__(VCITA_WIDGET_MENU_NAME, VCITA_WIDGET_MENU_NAME), __(VCITA_WIDGET_MENU_NAME, VCITA_WIDGET_SHORTCODE), 'edit_posts',  __FILE__, 'vcita_settings_menu', 
-      plugins_url(VCITA_WIDGET_UNIQUE_ID.'/images/settings.jpg'));
+    add_menu_page(__(VCITA_WIDGET_MENU_NAME, 'vcita'),
+        __(VCITA_WIDGET_MENU_NAME, 'vcita'), 'edit_posts',
+        __FILE__, 'vcita_settings_menu',
+        plugins_url(VCITA_WIDGET_UNIQUE_ID.'/images/settings.jpg'));
     add_action('admin_notices', 'vcita_wp_add_admin_notices');
   }
   if (function_exists('add_submenu_page') && !vcita_is_demo_user()) {
-    add_submenu_page(__FILE__, __('LiveSite Widget', VCITA_WIDGET_MENU_NAME), __('LiveSite Widget', VCITA_WIDGET_MENU_NAME), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-livesite-widget-edit.php');
-    add_submenu_page(__FILE__, __('Contact Form', VCITA_WIDGET_MENU_NAME), __('Contact Form', VCITA_WIDGET_MENU_NAME), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-contact-form-edit.php');
+    add_submenu_page(__FILE__, __('CRM Settings', 'vcita'),
+        __('CRM Settings', 'vcita'),
+        'edit_posts',
+        __FILE__);
+    add_submenu_page(__FILE__, __('Contact Management', 'vcita'), __('Contact Management', 'vcita'), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-contact-management.php');
+    add_submenu_page(__FILE__, __('LiveSite Widget', 'vcita'), __('LiveSite Widget', 'vcita'), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-livesite-widget-edit.php');
+    add_submenu_page(__FILE__, __('Contact Form', 'vcita'), __('Contact Form', 'vcita'), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-contact-form-edit.php');
   }
-  
-  add_submenu_page(null, __('', VCITA_WIDGET_MENU_NAME), __('', VCITA_WIDGET_MENU_NAME), 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-callback.php');
-  
+  add_submenu_page(null, '', '', 'edit_posts', VCITA_WIDGET_UNIQUE_ID.'/vcita-callback.php');
 }
 
 /**
@@ -307,8 +312,11 @@ function vcita_admin_actions() {
         </div>
         <div class="vcita-box-content">
           <p>Create a free vCita account or connect your existing account:</p>
-          <?php if ($first_time): ?>
-            <input id="vcita-email" type="text" value="" class="watermark" data-watermark="Enter Your Email"/>
+          <?php if ($first_time):
+            $user = wp_get_current_user();
+            $prepop_email = $user->data->user_email;
+            ?>
+            <input id="vcita-email" type="text" value="<?php echo esc_attr($prepop_email); ?>" class="watermark" data-watermark="Enter Your Email"/>
             <a href="javascript:void(0)" class="button button-primary" id="start-login">Connect</a>
           <?php else: # not first time ?>
             <label class="checked" for="user-email"></label>
@@ -363,7 +371,7 @@ function vcita_admin_actions() {
         </div>
         <div class="vcita-box-content">
           <div class="vcita-access-client-records">
-            <a href="https://www.vcita.com/my/dashboard" target="_blank" class="button button-primary prevent-link" style="font-weight:bold;">Access Client Records</a>
+            <a href="admin.php?page=<?php echo VCITA_WIDGET_UNIQUE_ID; ?>/vcita-contact-management.php" class="button button-primary prevent-link" style="font-weight:bold;">Access Client Records</a>
           </div>
         </div>
       </div>
@@ -384,7 +392,7 @@ function vcita_admin_actions() {
       </div>
 
       <div class="vcita-info-box">
-        <a href="https://www.vcita.com/partners/web-professionals?o=WP-CRM" target="_blank" class="vcita-webpro">
+        <a href="https://www.vcita.com/partners/web-professionals?o=WP-CRM&invite=WP-V-CRM" target="_blank" class="vcita-webpro">
           <img src="<?php echo plugins_url('/images/webpro.png', __FILE__); ?>" />
         </a>
         <!--
@@ -495,7 +503,7 @@ function vcita_widget_admin() {
     <?php if(vcita_is_demo_user()) {?>
       <h3>Contact requests will be sent to this email:</h3>
       <input class="vcita-email" type="text" value=""/>
-      <a href="javascript:void(0)" class="gray-button-style account start-login"><span></span>OK</a>              
+      <a href="javascript:void(0)" class="gray-button-style account start-login"><span></span>OK</a>
     <?php } 
       else { 
       $vcita_widget = (array) get_option(VCITA_WIDGET_KEY);  

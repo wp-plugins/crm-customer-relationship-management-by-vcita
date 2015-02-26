@@ -4,7 +4,7 @@ Donate link: http://www.vcita.com?invite=WP-V-CRM
 Tags: CRM, contact form db, WordPress CRM, Leads to crm, small business CRM, Website CRM,  small business contact management software, contact management software for small business,  CRM for real estate, Realestate CRM, CRM for attorneys, Lead management, leads, wordpress leads, email, user management, administration, contact, contact sync, form builder, form generator, lead, lead capture, widget, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, flamingo, contact management, contacts management, wp crm, small business, manage contacts
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 1.4.0
+Stable tag: 2.0.0
 
 License: GPLv2 or later
 
@@ -13,11 +13,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 CRM for WordPress that helps you capture more leads and manage contacts effectively.
 == Description ==
 
-vCita CRM & Leads for WordPress is the ultimate way to manage leads and customer relationships.<BR>
-It's a powerful CRM that lets you do a lot more than capturing and storing customers data:
+vCita CRM & Leads for WordPress is the ultimate way to manage leads and customer relationships. It's a powerful CRM that lets you do a lot more than capturing and storing customers data:
 
-vCita CRM help you generate new sales opportunities, provides insights and tracks all user interactions with your team.<BR>
-It helps you save time with automated client communications, notifications and reminders.<BR>
+vCita CRM help you generate new sales opportunities, provides insights and tracks all user interactions with your team. It helps you save time with automated client communications, notifications and reminders.<BR>
+
 Together with vCita LiveSite, vCita CRM helps optimizing your WordPress websites and encourage visitors to take action on your site: send a message, schedule an appointment, upload documents and pay for services, any time, using any device.<BR>
 
 The vCita CRM & Leads plugin connects to your vCita account. You may create a FREE account at vCita directly from the plugin.<BR>
@@ -151,6 +150,10 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
 5. **Customize Client records** - Customize your client records, and Add unlimited number of custom fields on every client record on your CRM. 
 
 == Changelog == 
+ = vCita CRM & Leads Version 2.0.0 =
+ * Manage all leads and contacts right on your WordPress admin.
+ * More customization for email templates
+ * New integration with Stripe payment gateway
 
  = vCita CRM & Leads Version 1.4.0 =
  * New design for email notifications sent from vCita to you & your clients
@@ -177,7 +180,5 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
  * First release
 
 == Upgrade Notice ==
-
- = vCita CRM & Leads Version 1.4.0 =
-New design for email notifications sent from vCita to you & your clients
-
+= vCita CRM & Leads Version 2.0.0 =
+Manage all leads and contacts right on your WordPress admin! And - new integration with Stripe for online payment collect

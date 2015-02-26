@@ -3,7 +3,7 @@
 Plugin Name: CRM & Lead Management for WordPress
 Plugin URI: http://www.vcita.com
 Description: Client Management by vCita proves to increase the number of contact form requests 
-Version: 1.4.0
+Version: 2.0.0
 Author: vCita.com
 Author URI: http://www.vcita.com
 */
@@ -19,7 +19,7 @@ if (vcita_scheduler_check_plugin_available('vcita_widget') || vcita_scheduler_ch
 	define('VCITA_WIDGET_PLUGIN_NAME', 'Client Management and CRM by vCita');
 	define('VCITA_WIDGET_KEY', 'vcita_scheduler');
 	define('VCITA_WIDGET_API_KEY', 'wp-v-schd');
-	define('VCITA_WIDGET_MENU_NAME', 'vCita Client Management');
+  define('VCITA_WIDGET_MENU_NAME', 'CRM & Contact Management');
 	define('VCITA_WIDGET_SHORTCODE', 'vCitaMeetingScheduler');
 	define('VCITA_CALENDAR_WIDGET_SHORTCODE', 'vCitaSchedulingCalendar');
 	define('VCITA_WIDGET_UNIQUE_ID', 'crm-customer-relationship-management-by-vcita');
