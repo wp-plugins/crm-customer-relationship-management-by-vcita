@@ -3,8 +3,8 @@ Contributors: vCita
 Donate link: http://www.vcita.com?invite=WP-V-CRM
 Tags: CRM, contact form db, WordPress CRM, Leads to crm, small business CRM, Website CRM,  small business contact management software, contact management software for small business,  CRM for real estate, Realestate CRM, CRM for attorneys, Lead management, leads, wordpress leads, email, user management, administration, contact, contact sync, form builder, form generator, lead, lead capture, widget, address book, crm plugin, crm tool, crm wordpress, crm wp, customer relations manager, customer relationship manager, flamingo, contact management, contacts management, wp crm, small business, manage contacts
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 2.0.0
+Tested up to: 4.2.2
+Stable tag: 2.1.0
 
 License: GPLv2 or later
 
@@ -150,6 +150,10 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
 5. **Customize Client records** - Customize your client records, and Add unlimited number of custom fields on every client record on your CRM. 
 
 == Changelog == 
+ = vCita CRM & Leads Version 2.1.0 =
+ * Compatibility with WordPress 4.2
+ * New! Send automated SMS reminders to clients
+
  = vCita CRM & Leads Version 2.0.0 =
  * Manage all leads and contacts right on your WordPress admin.
  * More customization for email templates
@@ -159,7 +163,7 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
  * New design for email notifications sent from vCita to you & your clients
  * More customization for the emails including branding colors and logo
  * New! Email signature option was added
- * Enhencements with scheduling settings to prevent appointments from being scheduled to far in advance
+ * Enhancements with scheduling settings to prevent appointments from being scheduled to far in advance
  
  = vCita CRM & Leads Version 1.3.0 =
  * Compatibility with WordPress 4.1
@@ -180,5 +184,6 @@ Please visit <a href="http://www.vcita.com/about/privacy_policy?invite=WP">Priva
  * First release
 
 == Upgrade Notice ==
-= vCita CRM & Leads Version 2.0.0 =
-Manage all leads and contacts right on your WordPress admin! And - new integration with Stripe for online payment collect
+ = vCita CRM & Leads Version 2.1.0 =
+ * Compatibility with WordPress 4.2
+ * New! Send automated SMS reminders to clients
